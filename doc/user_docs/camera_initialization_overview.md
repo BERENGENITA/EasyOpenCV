@@ -18,7 +18,7 @@ int cameraMonitorViewId = hardwareMap.appContext.getResources().getIdentifier("c
 ```
 If not, skip to section 2
 
-Note that even if you choose to use a live viewport, you can programmatically pause it to reduce CPU/battery load using `camera.pauseViewport();` and `webcam.resumeViewport();`
+Note that even if you choose to use a live viewport, you can programmatically pause it to reduce CPU/battery load using `camera.pauseViewport();` and `camera.resumeViewport();`
 
 ### 2. Creating a Camera Instance Using the Camera Factory
 
